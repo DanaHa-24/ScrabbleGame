@@ -1,4 +1,4 @@
-package Test
+package Test;
 
 public class GameManagerTest {
 
@@ -10,8 +10,8 @@ public class GameManagerTest {
 
     public void testAddPlayer() {
         GameManager gameManager = new GameManager();
-        Player player1 = new Player("Player1");
-        Player player2 = new Player("Player2");
+        Player player1 = new Player("Player1","icon1.png");
+        Player player2 = new Player("Player2", "icon2.png");
         gameManager.addPlayer(player1);
         gameManager.addPlayer(player2);
         assertEquals(2, gameManager.getPlayers().size());

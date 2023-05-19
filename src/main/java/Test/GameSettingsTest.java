@@ -1,4 +1,4 @@
-package Test
+package Test;
 
 public class GameSettingsTest {
 
