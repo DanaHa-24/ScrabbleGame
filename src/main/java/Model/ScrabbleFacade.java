@@ -73,4 +73,24 @@ public class ScrabbleFacade {
     public int getTileScore(char letter) {
         return Tile.getTileScore(letter);
     }
+
+    public void placeWord(){
+
+    }
+    public void challenge(){
+
+    }
+
+    public void createServer(){
+
+
+    }
+
+    public void joinServer(){
+
+    }
+
+    public void getAvailableTiles(){
+
+    }
 }
