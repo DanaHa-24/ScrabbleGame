@@ -95,7 +95,5 @@ public class Tile {
             return c_letters_amount;
         }
     }
-
-
 }
 
